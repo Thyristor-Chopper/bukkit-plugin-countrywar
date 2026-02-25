@@ -1,0 +1,31 @@
+name: Countrywar
+version: 2.36
+main: nitrogen.countrywar.Countrywar
+api-version: 1.17
+author: 'SARI_L'
+commands:
+    setting:
+        usage: /setting
+        description: setting
+permissions:
+    minecraft.command.country:
+        default: true
+        description: '국가 명령어'
+    minecraft.command.corelist:
+        default: true
+        description: '수호 신상 목록'
+    minecraft.command.rule:
+        default: true
+        description: '규칙 보기'
+    minecraft.command.tpbed:
+        default: true
+        description: '침대로 이동'
+    minecraft.command.core:
+        default: op
+        description: '수호 신상 생성 및 삭제'
+    minecraft.command.canattackcore:
+        default: op
+        description: '수호 신상 공격 가능 여부'
+    minecraft.command.caninteruptcore:
+        default: op
+        description: '수호 신상 주변 블록 설치 가능 여부'
